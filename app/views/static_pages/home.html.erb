@@ -1,7 +1,8 @@
+<% provide(:title, I18n.t("static_pages.home.title")) %>
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= t ".title" %></title>
+    <title><%= full_title yield(:title) %></title>
   </head>
   <body>
     <h1><%= t ".head" %></h1>

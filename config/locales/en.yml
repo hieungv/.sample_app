@@ -22,8 +22,10 @@ en:
  static_pages:
   home:
    head: "Static Pages Home"
-   title: "Ruby on Rails Tutorial Sample App"
-   title_p: "Home"
+   title: "Home"
  layouts:
   application:
    title: "SampleApp"
+
+ application_helper:
+  title: "Ruby on Rails Tutorial Sample App"

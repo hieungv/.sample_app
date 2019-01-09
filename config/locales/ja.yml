@@ -1,6 +1,11 @@
 ja:
-  static_pages:
-    home:
-      head: "静的ページ Home"
-      title: "
-Ruby on Rails チュートリアルサンプルアプリケーション"
+ static_pages:
+  home:
+   head: "静的ページ Home"
+   title: "ホームページ"
+ layouts:
+  application:
+   title: "SampleApp"
+ helpers:
+  application_helper:
+   title: "Ruby on Rails チュートリアルサンプルアプリケーション"

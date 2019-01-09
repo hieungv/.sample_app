@@ -3,9 +3,34 @@ vi:
   home:
    head: "Trang tĩnh Home"
    title: "Trang Chủ"
+   alt: "hình ảnh con mèo"
+  login:
+   head: "Đăng nhập trang tĩnh"
+   title: "Đăng nhập"
+  help:
+   head: "Trợ giúp trang tĩnh"
+   title: "Trợ giúp"
+  About:
+   head: "Trang tĩnh Giới thiệu"
+   title: "Giới thiệu"
+  Contact:
+   head: "Trợ giúp trang tĩnh"
+   title: "Trợ giúp"
  layouts:
   application:
    title: "SampleApp"
+  _header:
+   link_to_1: "Trang Chủ"
+   link_to_2: "Trợ giúp"
+   link_to_3: "Đăng nhập"
+  _footer:
+   link_to_1: "Giới thiệu"
+   link_to_2: "Trợ giúp"
+   link_to_3: "Mới"
+ users:
+  new:
+   head: "Trang tĩnh mới"
+   title: "Mới"
  helpers:
   application_helper:
    title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"

@@ -1,10 +1,6 @@
-<% provide(:title, I18n.t("static_pages.home.title")) %>
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= full_title yield(:title) %></title>
-  </head>
-  <body>
-    <h1><%= t ".head" %></h1>
-  </body>
-</html>
+<% provide :title, t("static_pages.home.title") %>
+
+<div class="center jumbotron">
+  <h1><%= t ".head" %></h1>
+  <%= link_to t("static_pages.home.sign_up"), new_path, class: "btn btn-lg btn-primary" %>
+</div>

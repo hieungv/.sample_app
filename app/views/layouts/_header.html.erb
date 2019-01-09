@@ -1,0 +1,15 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to "sample app", "#", id: "logo" %>
+    <%= link_to "vi", locale: "vi" %>
+    <%= link_to "en", locale: "en" %>
+    <%= link_to "Ja", locale: "ja" %>
+  <nav>
+    <ul class="nav navbar-nav navbar-right">
+      <li><%= link_to t("layouts._header.link_to_1"), root_path %></li>
+      <li><%= link_to t("layouts._header.link_to_2"), help_path %></li>
+      <li><%= link_to t("layouts._header.link_to_3"), new_path %></li>
+    </ul>
+  </nav>
+  </div>
+</header>

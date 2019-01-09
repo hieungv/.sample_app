@@ -17,9 +17,12 @@ require "sprockets/railtie"
 Bundler.require(*Rails.groups)
 
 module SampleApp
-  class Application < Rails::Application
+ class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
-  end
+  config.i18n.default_locale= :en
+  I18n.available_locales = [:en, :tw]
+  config.i18n.load_path += Dir["#{Rails.root.to_s}/config/locales/**/*.yml"]
+ end
 end

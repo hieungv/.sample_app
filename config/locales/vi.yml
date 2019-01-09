@@ -1,0 +1,9 @@
+vi:
+ static_pages:
+  home:
+   head: "Trang tĩnh Home"
+   title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+   title_p: "Trang Chủ"
+ layouts:
+  application:
+   title: "SampleApp"

@@ -18,6 +18,12 @@
 #
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+ static_pages:
+  home:
+   head: "Static Pages Home"
+   title: "Ruby on Rails Tutorial Sample App"
+   title_p: "Home"
+ layouts:
+  application:
+   title: "SampleApp"

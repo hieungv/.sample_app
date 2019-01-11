@@ -1,0 +1,6 @@
+ja:
+  static_pages:
+    home:
+      head: "静的ページ Home"
+      title: "
+Ruby on Rails チュートリアルサンプルアプリケーション"

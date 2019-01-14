@@ -1,36 +1,38 @@
 ja:
- static_pages:
-  home:
-   head: "静的ページ Home"
-   title: "ホームページ"
-   alt: "画像猫"
-  login:
-   head: "静的ページログイン"
-   title: "ログイン"
-  help:
-   head: "静的ページヘルプ"
-   title: "ヘルプ"
-  about:
-   head: "静的ページについて"
-   title: "について"
-  contact:
-   head: "静的ページ接触"
-   title: "接触"
- layouts:
-  application:
-   title: "SampleApp"
-  _header:
-   link_to_1: "ホームページ"
-   link_to_2: "ヘルプ"
-   link_to_3: "ログイン"
-  _footer:
-   link_to_1: "について"
-   link_to_2: "接触"
-   link_to_3: "新しい"
- users:
-  new:
-   head: "静的ページ新しい"
-   title: "新しい"
- helpers:
+  static_pages:
+    home:
+      head: "静的ページホーム"
+      title: "ホームページ"
+      sign_up: "今すぐ申し込む!"
+      alt: "画像猫"
+    login:
+      head: "静的ページログイン"
+      title: "ログイン"
+    help:
+      head: "静的ページヘルプ"
+      title: "ヘルプ"
+    about:
+      head: "静的ページについて"
+      title: "について"
+    contact:
+      head: "静的ページ接触"
+      title: "接触"
+  layouts:
+    application:
+      title: "SampleApp"
+    _header:
+      link_to_1: "ホームページ"
+      link_to_2: "ヘルプ"
+      link_to_3: "ログイン"
+      logo: "サンプルアプリ"
+    _footer:
+      link_to_1: "について"
+      link_to_2: "接触"
+      link_to_3: "新しい"
+      a_1: "によるRuby on Railsのチュートリアル"
+  users:
+    new:
+      head: "静的ページ新しい"
+      title: "新しい"
   application_helper:
-   title: "Ruby on Rails チュートリアルサンプルアプリケーション"
+    title: "Ruby on Rails チュートリアルサンプルアプリケーション"

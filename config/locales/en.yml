@@ -1,31 +1,38 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
 en:
  static_pages:
   home:
    head: "Static Pages Home"
    title: "Home"
+   sign_up: "Sign up now!"
+   alt: "images cat"
+  login:
+   head: "Static Pages Login"
+   title: "Login"
+  help:
+   head: "Static Pages Help"
+   title: "Help"
+  about:
+   head: "Static Pages About"
+   title: "About"
+  contact:
+   head: "Static Pages Contact"
+   title: "Contact"
  layouts:
   application:
    title: "SampleApp"
-
+  _header:
+   link_to_1: "Home"
+   link_to_2: "Help"
+   link_to_3: "Login"
+  _footer:
+   link_to_1: "About"
+   link_to_2: "Contact"
+   link_to_3: "News"
+ users:
+  new:
+   head: "Static Pages News"
+   title: "News"
  application_helper:
   title: "Ruby on Rails Tutorial Sample App"
+  _header:
+   link_to_1: "Home"

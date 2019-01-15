@@ -24,23 +24,25 @@ class UsersController < ApplicationController
     end
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.page(params[:page]).per Settings.pages_limit
+  end
 
   def edit; end
 
   def update
     if @user.update user_params
-      flash[:success] = t "upuser"
+      flash[:success] = t "update_user"
       redirect_to @user
     else
-      flash[:danger] = t "erupuser"
+      flash[:danger] = t "er_update_user"
       render :edit
     end
   end
 
   def destroy
     if @user.destroy
-      flash[:success] = t "sdelete"
+      flash[:success] = t "success_delete"
     else
       flash[:danger] = t "er_delete"
     end

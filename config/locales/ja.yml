@@ -7,7 +7,6 @@ ja:
       head: "静的ページホーム"
       title: "ホームページ"
       sign_up: "今すぐ申し込む!"
-      alt: "画像猫"
     login:
       head: "静的ページログイン"
       title: "新しい"
@@ -26,12 +25,11 @@ ja:
     _header:
       link_to_1: "ホームページ"
       link_to_2: "ヘルプ"
-      link_to_3: "ログイン"
       logo: "サンプルアプリ"
     _footer:
       link_to_1: "について"
       link_to_2: "接触"
-      link_to_3: "新しい"
+      link_to_3: "新しいニュース"
       a_1: "によるRuby on Railsのチュートリアル"
   users:
     new:
@@ -39,8 +37,6 @@ ja:
       head: "静的ページ新しい"
       title: "ログイン"
       name: "お名前"
-      email: "email"
-      password: "パスワード"
       password_confirmation: "確認"
       create: "作成"
   application_helper:
@@ -48,3 +44,13 @@ ja:
   users_controller:
     danger: "失敗"
     success: "サンプルアプリケーションへようこそ"
+  sessions_controller:
+    er: "無効なメールアドレスとパスワード"
+    new: "新しいユーザー？"
+  user: "ユーザー"
+  profile: "プロフィール"
+  settings: "設定"
+  log_out: "ログアウト"
+  login: "新しい"
+  password: "パスワード"
+  acc: "アカウント"

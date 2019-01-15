@@ -1,13 +1,9 @@
 vi:
-  shared:
-    _error_messages:
-      er: "Thông Báo"
   static_pages:
     home:
       head: "Trang Tĩnh Trang Chủ"
-      title: "Trang Chủ"
+      title: "Trang chủ"
       sign_up: "Đăng ký ngay!"
-      alt: "hình ảnh con mèo"
     login:
       head: "Đăng nhập trang tĩnh"
       title: "Đăng nhập"
@@ -24,9 +20,8 @@ vi:
     application:
       title: "SampleApp"
     _header:
-      link_to_1: "Trang Chủ"
+      link_to_1: "Trang chủ"
       link_to_2: "Trợ giúp"
-      link_to_3: "Đăng nhập"
       logo: "Ứng Dụng Mẫu"
     _footer:
       link_to_1: "Giới thiệu"
@@ -39,12 +34,19 @@ vi:
       head: "Trang tĩnh mới"
       title: "Tin Mới"
       name: "Tên"
-      email: "email"
-      password: "mật khẩu"
       password_confirmation: "Xác nhận mật khẩu"
-      create: "Tạo tài khoản"
   application_helper:
     title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   users_controller:
     danger: "Thất Bại"
     success: "Chào mừng bạn đến với Ứng dụng mẫu"
+  sessions_controller:
+    er: "email / mật khẩu không hợp lệ"
+    new: "Người dùng mới?"
+  user: "Người dùng"
+  profile: "Hồ sơ"
+  settings: "Cài đặt"
+  log_out: "Đăng xuất"
+  login: "Đăng nhập"
+  password: "Mật khẩu"
+  acc: "Tài khoản"

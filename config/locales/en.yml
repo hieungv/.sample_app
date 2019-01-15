@@ -1,4 +1,7 @@
 en:
+  shared:
+    _error_messages:
+      er: "Notification"
   static_pages:
     home:
       head: "Static Pages Home"
@@ -21,18 +24,27 @@ en:
     application:
       title: "SampleApp"
     _footer:
-      link_to_1: "Home"
-      link_to_2: "Help"
-      link_to_3: "Login"
-      logo: "SAMPLE APP"
-    _header:
       link_to_1: "About"
       link_to_2: "Contact"
       link_to_3: "News"
       a_1: "The Ruby on Rails Tutorial by"
+    _header:
+      link_to_1: "Home"
+      link_to_2: "Help"
+      link_to_3: "Login"
+      logo: "SAMPLE APP"
   users:
     new:
+      sign_up: "Sign up"
       head: "Static Pages New"
-      title: "New"
+      title: "News"
+      name: "Name"
+      email: "email"
+      password: "password"
+      password_confirmation: "Confirmation"
+      create: "Create my account"
   application_helper:
     title: "Ruby on Rails Tutorial Sample App"
+  users_controller:
+    danger: "Failure"
+    success: "Welcome to the sample application"

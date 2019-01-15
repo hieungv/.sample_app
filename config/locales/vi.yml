@@ -67,3 +67,12 @@ vi:
   titleup: "Cập nhật hồ sơ của bạn"
   change: "Thay đổi"
   er_delete: "Xóa thất bại"
+  check: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+  message: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn cho các liên kết kích hoạt."
+  hi: "Chào"
+  welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+  activate: "Kích hoạt"
+  subject: "Kích hoạt tài khoản"
+  acti: "Tài khoản được kích hoạt!"
+  invalid: "Liên kết kích hoạt không hợp lệ"
+

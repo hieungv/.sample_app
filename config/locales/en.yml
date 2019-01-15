@@ -47,7 +47,6 @@ en:
   sessions_controller:
     er: "Invalid email / password combination"
     new: "New user?"
-
   user: "Users"
   profile: "Profile"
   settings: "Settings"
@@ -56,3 +55,15 @@ en:
   password: "Password"
   acc: "Account"
   save: "Remember me on this computer"
+  erlogin: "Please log in"
+  delete: "delete"
+  sdelete: "User delete"
+  mes: "You sure?"
+  all: "All user"
+  update_user: "Profile updated"
+  er_update_user: "Update failed"
+  edit: "Edit user"
+  save: "Save changes"
+  titleup: "Update your profile"
+  change: "Change"
+  er_delete: "Delete failed"

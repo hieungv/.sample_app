@@ -149,7 +149,7 @@ aside {
  _mixin_sass.scss/@include box_sizing
  */
 input, textarea, select, .uneditable-input {
-  border: 1px solid $tx;
+  border: 1px solid $gray-lighter;
   width: 100%;
   margin-bottom: 15px;
   @include box_sizing;
@@ -185,4 +185,15 @@ input {
 #session_remember_me {
   width: auto;
   margin-left: 0;
+}
+/* Users index chapter 10*/
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
 }

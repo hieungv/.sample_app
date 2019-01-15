@@ -95,3 +95,7 @@ en:
   notification_2: "Micropost created!"
   notification_3: "You sure?"
   error_size: "should be less than 5MB"
+  following: "Following"
+  followers: "Followers"
+  submit_unfollow: "Unfollow"
+  submit_follow: "Follow"

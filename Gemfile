@@ -21,7 +21,7 @@ gem "faker", "1.7.3"
 gem "figaro"
 gem "puma", "~> 3.0"
 gem "mini_magick", "4.7.0"
-gem "rails", "~> 5.0.7", ">= 5.0.7.1"
+gem "rails", "~> 5.2"
 gem "rails-i18n"
 gem "rails-ujs"
 gem "rubocop", "~> 0.54.0", require: false

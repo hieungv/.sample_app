@@ -1,4 +1,7 @@
 vi:
+  shared:
+    _error_messages:
+      er: "Thông Báo"
   static_pages:
     home:
       head: "Trang Tĩnh Trang Chủ"
@@ -32,7 +35,16 @@ vi:
       a_1: "Hướng dẫn về Ruby on Rails bởi"
   users:
     new:
+      sign_up: "Đăng ký"
       head: "Trang tĩnh mới"
       title: "Tin Mới"
+      name: "Tên"
+      email: "email"
+      password: "mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      create: "Tạo tài khoản"
   application_helper:
     title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  users_controller:
+    danger: "Thất Bại"
+    success: "Chào mừng bạn đến với Ứng dụng mẫu"

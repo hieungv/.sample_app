@@ -1,3 +1,4 @@
 max_length_user: 50
 max_length_email: 250
 min_length_password: 6
+gravatar_for_size: 80

@@ -1,4 +1,7 @@
 ja:
+  shared:
+    _error_messages:
+      er: "お知らせ"
   static_pages:
     home:
       head: "静的ページホーム"
@@ -7,7 +10,7 @@ ja:
       alt: "画像猫"
     login:
       head: "静的ページログイン"
-      title: "ログイン"
+      title: "新しい"
     help:
       head: "静的ページヘルプ"
       title: "ヘルプ"
@@ -32,7 +35,16 @@ ja:
       a_1: "によるRuby on Railsのチュートリアル"
   users:
     new:
+      sign_up: "サインアップ"
       head: "静的ページ新しい"
-      title: "新しい"
+      title: "ログイン"
+      name: "お名前"
+      email: "email"
+      password: "パスワード"
+      password_confirmation: "確認"
+      create: "作成"
   application_helper:
     title: "Ruby on Rails チュートリアルサンプルアプリケーション"
+  users_controller:
+    danger: "失敗"
+    success: "サンプルアプリケーションへようこそ"

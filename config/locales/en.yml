@@ -7,7 +7,6 @@ en:
       head: "Static Pages Home"
       title: "Home"
       sign_up: "Sign up now!"
-      alt: "images cat"
     login:
       head: "Static Pages Login"
       title: "Login"
@@ -23,24 +22,21 @@ en:
   layouts:
     application:
       title: "SampleApp"
+    _header:
+      link_to_1: "Home"
+      link_to_2: "Help"
+      logo: "SAMPLE APP"
     _footer:
       link_to_1: "About"
       link_to_2: "Contact"
       link_to_3: "News"
       a_1: "The Ruby on Rails Tutorial by"
-    _header:
-      link_to_1: "Home"
-      link_to_2: "Help"
-      link_to_3: "Login"
-      logo: "SAMPLE APP"
   users:
     new:
       sign_up: "Sign up"
       head: "Static Pages New"
       title: "News"
       name: "Name"
-      email: "email"
-      password: "password"
       password_confirmation: "Confirmation"
       create: "Create my account"
   application_helper:
@@ -48,3 +44,14 @@ en:
   users_controller:
     danger: "Failure"
     success: "Welcome to the sample application"
+  sessions_controller:
+    er: "Invalid email / password combination"
+    new: "New user?"
+
+  user: "Users"
+  profile: "Profile"
+  settings: "Settings"
+  log_out: "Log out"
+  login: "Login"
+  password: "Password"
+  acc: "Account"

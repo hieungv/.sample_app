@@ -144,10 +144,12 @@ aside {
 .gravatar_edit {
   margin-top: 15px;
 }
-/* chapter 7.16 forms */
 
+/* chapter 7.16 forms
+ _mixin_sass.scss/@include box_sizing
+ */
 input, textarea, select, .uneditable-input {
-  border: 1px solid #bbb;
+  border: 1px solid $tx;
   width: 100%;
   margin-bottom: 15px;
   @include box_sizing;
@@ -158,15 +160,15 @@ input {
 }
  /* forms chapter 7.22 */
 #error_explanation {
-  color: red;
+  color: $red;
   ul {
-    color: red;
+    color: $red;
     margin: 0 0 30px;
   }
 }
 .field_with_error {
   @extend .has-error;
   .form-control {
-    color: $den;
+    color: $red;
   }
 }

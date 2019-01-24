@@ -5,13 +5,17 @@ git_source(:github) do |repo_name|
 end
 
 ruby "2.4.0"
+
 gem "bcrypt", "3.1.12"
 gem "bootstrap-sass", "3.3.7"
 gem "bootsnap", ">= 1.1.0", require: false
+gem "kaminari"
+gem "bootstrap-kaminari-views"
 gem "coffee-rails", "~> 4.2"
 gem "config"
 gem "jbuilder", "~> 2.5"
 gem "jquery-rails"
+gem "faker", "1.7.3"
 gem "puma", "~> 3.0"
 gem "rails", "~> 5.0.7", ">= 5.0.7.1"
 gem "rails-ujs"

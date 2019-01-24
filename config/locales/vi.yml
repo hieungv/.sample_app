@@ -1,4 +1,7 @@
 vi:
+  shared:
+    _error_messages:
+      er: "Thông báo"
   static_pages:
     home:
       head: "Trang Tĩnh Trang Chủ"
@@ -35,6 +38,7 @@ vi:
       title: "Tin Mới"
       name: "Tên"
       password_confirmation: "Xác nhận mật khẩu"
+      create: "Tạo tài khoản "
   application_helper:
     title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   users_controller:
@@ -51,3 +55,15 @@ vi:
   password: "Mật khẩu"
   acc: "Tài khoản"
   save: "Nhớ tài khoản"
+  erlogin: "Xin vui lòng đăng nhập"
+  delete: "xóa"
+  sdelete: "Xóa người dùng"
+  mes: "Bạn chắc chắn?"
+  all: "Tất cả người dùng"
+  update_user: "Hồ sơ cá nhân đã cập nhật"
+  er_update_user: "Cập nhật thất bại"
+  edit: "Chỉnh sửa người dùng "
+  save: "Lưu thay đổi"
+  titleup: "Cập nhật hồ sơ của bạn"
+  change: "Thay đổi"
+  er_delete: "Xóa thất bại"

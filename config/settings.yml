@@ -3,4 +3,6 @@ length_email: 250
 min_length_password: 6
 gravatar_for_size: 50
 one: 1
-pages_limit: 10
+pages_limit: 5
+max_length: 140
+max_size_img: 1

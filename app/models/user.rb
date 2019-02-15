@@ -1,21 +1,20 @@
 class User < ApplicationRecord
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   attr_reader :remember_token, :activation_token, :reset_token
-  before_save :downcase_email
-  before_create :create_activation_digest
   validates :name, presence: true, length: {maximum: Settings.max_length_user}
   validates :email, presence: true, length: {maximum: Settings.length_email},
     format: {with: VALID_EMAIL_REGEX}, uniqueness: {case_sensitive: false}
   validates :password, presence: true,
-   length: {minimum: Settings.min_length_password}, allow_nil: true
+    length: {minimum: Settings.min_length_password}, allow_nil: true
   before_save :downcase_email
   before_create :create_activation_digest
+  has_many :microposts, dependent: :destroy
   has_secure_password
 
   class << self
     def digest string
       cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST : BCrypt::Engine.cost
-      BCrypt::Password.create string, cost: cost
+      BCrypt::Password.create(string, cost: cost)
     end
 
     def new_token
@@ -62,6 +61,10 @@ class User < ApplicationRecord
 
   def current_user? user
     self == user
+  end
+
+  def feed
+    microposts
   end
 
   private

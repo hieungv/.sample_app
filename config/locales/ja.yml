@@ -95,3 +95,8 @@ ja:
   notification_2: "Micropost 作成した!"
   error_size: "5MB以下にしてください"
   notification_3: "確信してるの？"
+  error_size: "5 MB未満にする必要があります"
+  following: "Following"
+  followers: "Followers"
+  submit_unfollow: "フォローを解除"
+  submit_follow: "フォローアップ"

@@ -95,3 +95,8 @@ vi:
   notification_2: "Micropost được tạo!"
   error_size: "nên dưới 5 MB"
   notification_3: "bạn chắc chắn?"
+  error_size: "nên dưới 5 MB"
+  following: "Following"
+  followers: "Followers"
+  submit_unfollow: "Hủy theo dõi"
+  submit_follow: "Theo dõi"
